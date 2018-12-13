@@ -83,18 +83,11 @@ h1, h2, h3, h4, h5, h6 {
 
 .about{
 	margin: 4em 0;
-	padding: 1em;
 	position: relative;
 }
 .about h1{
 	color:#FFA630;
 	margin: 2em;
-}
-.about span{
-	display: block;
-	color: #416788;
-	position: absolute;
-	left: 115px;
 }
 .about .bio{
 	padding: 2em;
@@ -106,8 +99,12 @@ h1, h2, h3, h4, h5, h6 {
 	line-height:2;
 	
 	color:#889696;
-	font-family: 'Courgette', cursive;
+	
 }
+/* .about img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(100%);
+} */
 
 
 /*Education page styles*/
@@ -246,10 +243,13 @@ h1, h2, h3, h4, h5, h6 {
 	-ms-transform: translate(-30%, -30%);
 	transform: translate(-30%, -30%);
 	text-align: left;
+
 }
 
 .item:hover .overlay{
 	opacity: 1;
+	display: block;
+	
 }
 
 /*Contact page styles*/
@@ -297,5 +297,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .Introduction{
-	padding: 4em;
+	padding: 4em 0;
+	position: relative;
+	line-height: 2;
 }
