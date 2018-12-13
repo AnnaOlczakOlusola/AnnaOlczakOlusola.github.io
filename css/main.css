@@ -61,7 +61,7 @@ h1, h2, h3, h4, h5, h6 {
     top: 30%;
     margin: auto;
     padding: 3em;
-
+    
 }
 .intro h1{
 	color:#FFA630 ;
@@ -147,6 +147,10 @@ h1, h2, h3, h4, h5, h6 {
 	border: none;
 }
 
+.education .card-footer{
+	background-color: #F5F5F5;
+}
+
 .education button{
 	border:1px  solid #FFA630;
 	background:#FFA630;
@@ -194,6 +198,7 @@ h1, h2, h3, h4, h5, h6 {
 .projects .card-body{
 	padding: 1em;
 }
+
 
 /*Experience page styles*/
 
@@ -289,4 +294,8 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.8rem;
 	line-height: 0.9rem;
 	
+}
+
+.Introduction{
+	padding: 4em;
 }
