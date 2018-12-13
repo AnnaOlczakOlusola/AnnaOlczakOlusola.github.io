@@ -1,0 +1,292 @@
+@import url('https://fonts.googleapis.com/css?family=Archivo:500|Open+Sans:300,700');
+
+body{
+	padding: 0;
+	margin: 0;
+	background:#F5F5F5;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Archivo', sans-serif;
+	font-weight: 500;
+   }
+
+/*Navigation styles*/
+
+.navbar{
+	background: #416788;
+}
+.nav-link {
+	color: #EAEEF4;
+	cursor: pointer;
+}
+.navbar-brand{
+	color: #EAEEF4;
+	cursor: pointer;
+}
+.nav-link{
+	margin-right: 1em !important;
+}
+.nav-link:hover{
+	background: #EAEEF4;
+	color: #FFA630;
+
+}
+.navbar-collapse{
+ justify-content: flex-end;
+}
+.navbar-toggler{
+  background:#fff !important;
+}
+
+/*Home page styles*/
+.header{
+	position: relative;
+	background-image: url('../images/headerbackground.jpg');
+	background-size: cover;
+	background-position: center;
+}
+.overlay{
+	position: absolute;
+	min-height: 100%;
+	min-width: 100%;
+	margin-left: 0;
+	margin-top: 0;
+	background: rgba(244, 244, 244, 0.79);
+}
+.intro{
+    position: absolute;
+    top: 30%;
+    margin: auto;
+    padding: 3em;
+
+}
+.intro h1{
+	color:#FFA630 ;
+}
+.intro p{
+	color: #416788;
+	font-size: 20px;
+	width: 100%;
+	line-height: 1.5;
+}
+
+.intro button{
+	border:1px  solid #FFA630;
+	background:#FFA630;
+	color:#fff;
+}
+
+/*About page styles*/
+
+.about{
+	margin: 4em 0;
+	padding: 1em;
+	position: relative;
+}
+.about h1{
+	color:#FFA630;
+	margin: 2em;
+}
+.about span{
+	display: block;
+	color: #416788;
+	position: absolute;
+	left: 115px;
+}
+.about .bio{
+	padding: 2em;
+}
+.about .bio h2{
+	color: #416788;
+}
+.about .bio p{
+	line-height:2;
+	
+	color:#889696;
+	font-family: 'Courgette', cursive;
+}
+
+
+/*Education page styles*/
+.education
+{
+	margin: 4em 0;
+    position: relative;	
+}
+.education h1{
+	color:#FFA630;
+	margin: 2em;	
+}
+.education .ao-img{
+	height: 15rem;
+	width: 100%;
+	margin: 1em;
+}
+
+.education h2{
+	color: #416788
+}
+
+.education .itt{
+	padding: 2em;
+}
+
+.education .itt p{
+	line-height: 2;
+	letter-spacing: 0.08rem;
+	color: #889696;
+	
+}
+
+.education .card{
+	color: #889696;
+	background-color: #F5F5F5;
+	border: none;
+}
+
+.education button{
+	border:1px  solid #FFA630;
+	background:#FFA630;
+	color:#fff;
+}
+
+.education .card-footer{
+	border: none;
+}
+.ao-edu{
+	color: #FFA630;
+	font-weight: bold;
+	margin-top: .5rem;
+	
+}
+
+/*projects page styles*/
+
+.projects{
+	margin: 4em 0;
+	position: relative;	
+}
+.projects h1{
+	color:#FFA630;
+	margin: 2em;	
+}
+.projects .card{
+	box-shadow: 5px 5px #ccc;
+	color: #889696;
+}
+.projects .card img{
+	width: 100%;
+	height: 12em;
+}
+.projects button{
+	border:1px  solid #FFA630;
+	background:#FFA630;
+	color:#fff;
+}
+
+.projects .card-title{
+	color:#FFA630;
+	 
+}
+.projects .card-body{
+	padding: 1em;
+}
+
+/*Experience page styles*/
+
+.experience{
+	margin: 4em 0;
+	position: relative;
+
+}
+.experience h1{
+	color:#FFA630;
+	margin: 2em;	
+}
+.experience .item{
+	position: relative;
+	overflow: hidden;	
+}
+
+.experience .overlay{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #416788;
+}
+
+.experience img{
+  display: block;
+  width: 100%;
+  height: auto;
+
+}
+
+.experience .text{
+	color: white;
+	font-size: 15px;
+	position: absolute;
+	top: 30%;
+	left: 30%;
+	-webkit-transform: translate(-30%, -30%);
+	-ms-transform: translate(-30%, -30%);
+	transform: translate(-30%, -30%);
+	text-align: left;
+}
+
+.item:hover .overlay{
+	opacity: 1;
+}
+
+/*Contact page styles*/
+
+.contact-form{
+	margin: 6em 0;
+	position: relative;		
+}
+
+.contact-form h1{
+	color:#FFA630;
+	margin: 2em;
+}
+.left .btn {
+	background-color: #416788;
+	border: none;
+	color: white;
+	padding: 12px 30px;
+	cursor: pointer;
+	font-size: 20px;
+  }
+  
+  .left .btn:hover {
+	background-color: rgb(8, 100, 109);
+  }
+.contact-form .right .btn-secondary{
+	background:  #FFA630;
+	color: #fff;
+	border:0;
+}
+.contact-form .right .form-control::placeholder{
+	color: #889696;
+	font-size: 16px;
+}
+
+.ao-list{
+    margin-bottom: 1.5rem;
+}
+
+.ao-credit{
+    opacity: 0.6;
+    font-size: 0.8rem;
+	line-height: 0.9rem;
+	
+}
